@@ -10,9 +10,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	mocks "github.com/chainifynet/aws-encryption-sdk-go/mocks/github.com/chainifynet/aws-encryption-sdk-go/pkg/model/format"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model/format"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	mocks "github.com/controlplane-com/aws-encryption-sdk-go/mocks/github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/format"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/format"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 func TestNewHeader(t *testing.T) {

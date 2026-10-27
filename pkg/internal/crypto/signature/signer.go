@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/crypto/hasher"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/rand"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/crypto/hasher"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/rand"
 )
 
 var (

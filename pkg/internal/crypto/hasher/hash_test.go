@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	hashmocks "github.com/chainifynet/aws-encryption-sdk-go/mocks/hash"
+	hashmocks "github.com/controlplane-com/aws-encryption-sdk-go/mocks/hash"
 )
 
 func TestNewECCHasher(t *testing.T) {

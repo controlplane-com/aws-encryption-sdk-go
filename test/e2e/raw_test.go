@@ -12,12 +12,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/client"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/clientconfig"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/materials"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/providers/rawprovider"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
-	"github.com/chainifynet/aws-encryption-sdk-go/test/e2e/logger"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/client"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/clientconfig"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/materials"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/providers/rawprovider"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/test/e2e/logger"
 )
 
 func Test_Integration_StaticKeysEncrypt(t *testing.T) {

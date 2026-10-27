@@ -5,7 +5,7 @@
 package format
 
 import (
-	suite "github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	suite "github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 	mock "github.com/stretchr/testify/mock"
 )
 

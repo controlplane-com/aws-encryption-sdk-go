@@ -17,5 +17,5 @@
 //	    panic(err) // handle error
 //	}
 //
-// [examples]: https://github.com/chainifynet/aws-encryption-sdk-go/tree/main/example
+// [examples]: https://github.com/controlplane-com/aws-encryption-sdk-go/tree/main/example
 package rawprovider

@@ -14,11 +14,11 @@ import (
 	"github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/transport/http"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/keys"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model/types"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/utils/arn"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/keys"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/types"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/utils/arn"
 )
 
 // ErrKmsClient is returned when AWS KMS encounters an error.

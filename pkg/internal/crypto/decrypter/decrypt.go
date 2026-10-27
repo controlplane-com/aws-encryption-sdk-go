@@ -10,15 +10,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/crypto"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/crypto/policy"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/crypto/signature"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/serialization"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/bodyaad"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/encryption"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/keyderivation"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model/format"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/crypto"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/crypto/policy"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/crypto/signature"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/serialization"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/bodyaad"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/encryption"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/keyderivation"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/format"
 )
 
 // ErrInvalidMessage is returned when the message format is invalid.

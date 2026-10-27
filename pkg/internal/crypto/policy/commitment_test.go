@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/crypto/policy"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/crypto/policy"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 func TestValidateOnEncrypt(t *testing.T) {

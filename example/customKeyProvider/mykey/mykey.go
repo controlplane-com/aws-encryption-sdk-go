@@ -14,9 +14,9 @@ import (
 	b64 "encoding/base64"
 	"fmt"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/keys"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/keys"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 // KeyFactory implements [model.MasterKeyFactory] interface.

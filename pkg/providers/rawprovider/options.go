@@ -3,7 +3,7 @@
 
 package rawprovider
 
-import "github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
+import "github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
 
 type staticKey struct {
 	keyID string

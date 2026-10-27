@@ -5,7 +5,7 @@
 package model
 
 import (
-	model "github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
+	model "github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
 	mock "github.com/stretchr/testify/mock"
 )
 

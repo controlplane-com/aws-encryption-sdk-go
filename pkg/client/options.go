@@ -6,9 +6,9 @@ package client
 import (
 	"fmt"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/crypto"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/crypto"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 const (

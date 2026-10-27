@@ -8,13 +8,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/clientconfig"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/crypto"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/crypto/decrypter"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/crypto/encrypter"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model/format"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/clientconfig"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/crypto"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/crypto/decrypter"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/crypto/encrypter"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/format"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 // ErrInvalidConfig is returned when client configuration is invalid.

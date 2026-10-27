@@ -7,7 +7,7 @@ import (
 	"context"
 	"crypto/ecdsa"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 // CryptoMaterialsManager is an interface for crypto materials manager implementations.

@@ -7,9 +7,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/client"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/materials"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/providers/rawprovider"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/client"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/materials"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/providers/rawprovider"
 )
 
 func main() {

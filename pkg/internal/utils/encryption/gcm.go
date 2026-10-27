@@ -9,7 +9,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/conv"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/conv"
 )
 
 const (

@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/bodyaad"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/bodyaad"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 func TestContentString(t *testing.T) {

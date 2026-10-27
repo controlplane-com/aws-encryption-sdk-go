@@ -9,13 +9,13 @@ import (
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/stretchr/testify/assert"
 
-	mocks "github.com/chainifynet/aws-encryption-sdk-go/mocks/github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/providers/keyprovider"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/providers/kmsclient"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/keys/kms"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model/types"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/providers"
+	mocks "github.com/controlplane-com/aws-encryption-sdk-go/mocks/github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/providers/keyprovider"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/providers/kmsclient"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/keys/kms"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/types"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/providers"
 )
 
 func Test_resolveProviderType(t *testing.T) {

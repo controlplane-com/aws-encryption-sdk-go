@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
 
-	mocks "github.com/chainifynet/aws-encryption-sdk-go/mocks/github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
+	mocks "github.com/controlplane-com/aws-encryption-sdk-go/mocks/github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
 )
 
 func Test_masterKey_KeyID(t *testing.T) {

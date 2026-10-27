@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/itertools"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/itertools"
 )
 
 func BenchmarkCombinationsNew(b *testing.B) {

@@ -3,7 +3,7 @@
 
 package keys
 
-import "github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
+import "github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
 
 // BaseKey is implementation of [model.MasterKeyBase] that methods can be reused or
 // overridden by other master key implementations.

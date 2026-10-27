@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/test/e2e/testutils"
+	"github.com/controlplane-com/aws-encryption-sdk-go/test/e2e/testutils"
 )
 
 func Test_Cli_Integration_AwsEncryptionSdkCliVersion(t *testing.T) {

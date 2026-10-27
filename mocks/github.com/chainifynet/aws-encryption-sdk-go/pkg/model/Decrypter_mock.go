@@ -7,7 +7,7 @@ package model
 import (
 	context "context"
 
-	format "github.com/chainifynet/aws-encryption-sdk-go/pkg/model/format"
+	format "github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/format"
 	mock "github.com/stretchr/testify/mock"
 )
 

@@ -12,8 +12,8 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
-	"github.com/chainifynet/aws-encryption-sdk-go/test/e2e/logger"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/test/e2e/logger"
 )
 
 var log = logger.L().Level(zerolog.DebugLevel) //nolint:gochecknoglobals

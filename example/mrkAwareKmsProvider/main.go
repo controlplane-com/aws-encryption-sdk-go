@@ -7,12 +7,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/client"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/clientconfig"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/materials"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/providers/kmsprovider"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/utils/arn"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/client"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/clientconfig"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/materials"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/providers/kmsprovider"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/utils/arn"
 )
 
 // encrypts and then decrypts a string using MRK-aware KMS key provider

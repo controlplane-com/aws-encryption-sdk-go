@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 // ConfigOptions is a holder of the configuration options for the client.

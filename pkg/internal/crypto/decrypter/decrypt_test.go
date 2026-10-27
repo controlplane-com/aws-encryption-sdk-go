@@ -13,14 +13,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	signaturemock "github.com/chainifynet/aws-encryption-sdk-go/mocks/github.com/chainifynet/aws-encryption-sdk-go/pkg/internal_/crypto/signature"
-	mocks "github.com/chainifynet/aws-encryption-sdk-go/mocks/github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	formatmocks "github.com/chainifynet/aws-encryption-sdk-go/mocks/github.com/chainifynet/aws-encryption-sdk-go/pkg/model/format"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/clientconfig"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/crypto"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/crypto/signature"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model/format"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	signaturemock "github.com/controlplane-com/aws-encryption-sdk-go/mocks/github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal_/crypto/signature"
+	mocks "github.com/controlplane-com/aws-encryption-sdk-go/mocks/github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	formatmocks "github.com/controlplane-com/aws-encryption-sdk-go/mocks/github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/format"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/clientconfig"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/crypto"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/crypto/signature"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/format"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 func TestNew(t *testing.T) {

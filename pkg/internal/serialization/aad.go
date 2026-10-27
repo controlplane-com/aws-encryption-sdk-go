@@ -10,9 +10,9 @@ import (
 	"math"
 	"sort"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/conv"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/structs"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/conv"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/structs"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 const aadLenFields = int(2)

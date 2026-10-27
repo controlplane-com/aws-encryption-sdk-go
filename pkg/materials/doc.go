@@ -25,5 +25,5 @@
 //
 // Check [example] for more advanced usage.
 //
-// [example]: https://github.com/chainifynet/aws-encryption-sdk-go/blob/main/example/multipleKeyProvider/main.go
+// [example]: https://github.com/controlplane-com/aws-encryption-sdk-go/blob/main/example/multipleKeyProvider/main.go
 package materials

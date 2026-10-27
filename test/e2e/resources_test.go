@@ -8,8 +8,8 @@ package main_test
 import (
 	"github.com/aws/aws-sdk-go-v2/config"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
-	u "github.com/chainifynet/aws-encryption-sdk-go/test/e2e/testutils"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
+	u "github.com/controlplane-com/aws-encryption-sdk-go/test/e2e/testutils"
 )
 
 type testFile struct {

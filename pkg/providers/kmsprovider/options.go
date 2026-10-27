@@ -6,8 +6,8 @@ package kmsprovider
 import (
 	"github.com/aws/aws-sdk-go-v2/config"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/utils/arn"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/utils/arn"
 )
 
 // Options contains the configuration options for the [KmsKeyProvider].

@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/providers/keyprovider"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model/types"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/providers/keyprovider"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/types"
 )
 
 func TestNewKeyProvider(t *testing.T) {

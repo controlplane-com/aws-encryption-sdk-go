@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
 )
 
 // validateParams validates the parameters for the given context, source, and CryptoMaterialsManager

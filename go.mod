@@ -1,4 +1,4 @@
-module github.com/chainifynet/aws-encryption-sdk-go
+module github.com/controlplane-com/aws-encryption-sdk-go
 
 go 1.21
 

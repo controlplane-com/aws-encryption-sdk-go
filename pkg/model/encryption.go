@@ -7,8 +7,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model/format"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/format"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 // DecryptionHandler is an interface for decryption handler implementations.

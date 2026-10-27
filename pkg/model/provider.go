@@ -6,8 +6,8 @@ package model
 import (
 	"context"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model/types"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/types"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 // BaseKeyProvider is the base interface for key provider. It responsible for a

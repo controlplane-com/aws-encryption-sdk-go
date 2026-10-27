@@ -10,8 +10,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/kms"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/providers/kmsclient"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/providers/kmsclient"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
 )
 
 func TestNewFactory(t *testing.T) {

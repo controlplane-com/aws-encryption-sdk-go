@@ -10,14 +10,14 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/config"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/providers/common"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/structs"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/keys/kms"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model/types"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/providers"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/utils/arn"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/providers/common"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/structs"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/keys/kms"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/types"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/providers"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/utils/arn"
 )
 
 // KmsProvider is an interface for KMS providers.
@@ -82,7 +82,7 @@ type KmsProvider interface {
 //	    panic(err) // handle error
 //	}
 //
-// [examples]: https://github.com/chainifynet/aws-encryption-sdk-go/tree/main/example
+// [examples]: https://github.com/controlplane-com/aws-encryption-sdk-go/tree/main/example
 func NewWithOpts(keyIDs []string, optFns ...func(options *Options) error) (*KmsKeyProvider[model.MasterKey], error) {
 	var options Options
 	for _, optFn := range optFns {
@@ -142,7 +142,7 @@ func NewWithOpts(keyIDs []string, optFns ...func(options *Options) error) (*KmsK
 //
 // See [examples] for more detailed usage.
 //
-// [examples]: https://github.com/chainifynet/aws-encryption-sdk-go/tree/main/example
+// [examples]: https://github.com/controlplane-com/aws-encryption-sdk-go/tree/main/example
 func New(keyIDs ...string) (*KmsKeyProvider[model.MasterKey], error) {
 	if len(keyIDs) == 0 {
 		return NewWithOpts(keyIDs, WithDiscovery())

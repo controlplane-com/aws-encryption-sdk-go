@@ -14,9 +14,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/chainifynet/aws-encryption-sdk-go-tests/example/customKeyProvider/myprovider"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/client"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/materials"
+	"github.com/controlplane-com/aws-encryption-sdk-go-tests/example/customKeyProvider/myprovider"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/client"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/materials"
 )
 
 func main() {

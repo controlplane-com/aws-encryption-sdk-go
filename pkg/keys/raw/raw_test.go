@@ -12,14 +12,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	mocksrand "github.com/chainifynet/aws-encryption-sdk-go/mocks/github.com/chainifynet/aws-encryption-sdk-go/pkg/internal_/utils/rand"
-	mocks "github.com/chainifynet/aws-encryption-sdk-go/mocks/github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/serialization/wrappingkey"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/encryption"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/rand"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/keys"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	mocksrand "github.com/controlplane-com/aws-encryption-sdk-go/mocks/github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal_/utils/rand"
+	mocks "github.com/controlplane-com/aws-encryption-sdk-go/mocks/github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/serialization/wrappingkey"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/encryption"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/rand"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/keys"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 func TestRawMasterKey_KeyID(t *testing.T) {

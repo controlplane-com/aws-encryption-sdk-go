@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
 )
 
 // MemoryCache CachingCryptoMaterialsManager still under development.
