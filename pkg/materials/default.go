@@ -11,12 +11,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/rand"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/structs"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model/types"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/providers"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/rand"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/structs"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/types"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/providers"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 // DefaultCryptoMaterialsManager is a default implementation of [model.CryptoMaterialsManager].

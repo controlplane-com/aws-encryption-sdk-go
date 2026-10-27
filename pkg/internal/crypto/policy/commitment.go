@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 var errCommitmentEncryptNonCommitted = errors.New("configuration conflict. Cannot encrypt due to CommitmentPolicy requiring only non-committed messages")

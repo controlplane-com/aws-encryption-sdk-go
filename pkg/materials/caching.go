@@ -7,7 +7,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
 )
 
 // BaseCache CachingCryptoMaterialsManager still under development.

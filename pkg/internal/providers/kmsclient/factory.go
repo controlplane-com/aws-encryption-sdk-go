@@ -7,8 +7,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/kms"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
 )
 
 const userAgentSuffix string = "AwsEncryptionSdkGo/" + pkg.Version

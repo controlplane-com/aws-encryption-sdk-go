@@ -9,13 +9,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/serialization/wrappingkey"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/encryption"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/keyderivation"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/rand"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/keys"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/serialization/wrappingkey"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/encryption"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/keyderivation"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/rand"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/keys"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 // KeyHandler is an interface specific to the RawMasterKey which is used by Raw

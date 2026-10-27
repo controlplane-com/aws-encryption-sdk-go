@@ -4,8 +4,8 @@
 package keyprovider
 
 import (
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/providers/keyprovider"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model/types"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/providers/keyprovider"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/types"
 )
 
 // NewKeyProvider is an alias for internal [keyprovider.NewKeyProvider].

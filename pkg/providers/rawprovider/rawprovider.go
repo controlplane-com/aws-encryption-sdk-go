@@ -8,13 +8,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/providers/common"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/utils/structs"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/keys/raw"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model/types"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/providers"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/providers/common"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/utils/structs"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/keys/raw"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/types"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/providers"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 // RawProvider is an interface for Raw Key Providers.
@@ -45,7 +45,7 @@ type RawProvider interface {
 //	    panic(err) // handle error
 //	}
 //
-// [examples]: https://github.com/chainifynet/aws-encryption-sdk-go/tree/main/example
+// [examples]: https://github.com/controlplane-com/aws-encryption-sdk-go/tree/main/example
 func NewWithOpts(providerID string, optFns ...func(options *Options) error) (*RawKeyProvider[model.MasterKey], error) {
 	options := Options{
 		staticKeys: make(map[string][]byte, 5), // increase if needed

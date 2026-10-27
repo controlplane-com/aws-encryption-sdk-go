@@ -6,8 +6,8 @@ package materials
 import (
 	"context"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 // TODO andrew refactor, for sure it needs to be moved under keys or providers likely package

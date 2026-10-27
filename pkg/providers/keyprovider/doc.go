@@ -5,5 +5,5 @@
 //
 // See [Custom Key Provider] example how to use it.
 //
-// [Custom Key Provider]: https://github.com/chainifynet/aws-encryption-sdk-go/tree/main/example/customKeyProvider
+// [Custom Key Provider]: https://github.com/controlplane-com/aws-encryption-sdk-go/tree/main/example/customKeyProvider
 package keyprovider

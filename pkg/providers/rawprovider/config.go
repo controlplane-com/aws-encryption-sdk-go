@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/internal/providers/keyprovider"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model/types"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/providers"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/internal/providers/keyprovider"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model/types"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/providers"
 )
 
 func validateConfig(providerID string, opts *Options) error {

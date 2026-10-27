@@ -3,7 +3,7 @@
 
 package clientconfig
 
-import "github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+import "github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 
 const (
 	// DefaultCommitment is the default commitment policy for the client.

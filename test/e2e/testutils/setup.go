@@ -6,12 +6,12 @@ package testutils
 import (
 	"github.com/aws/aws-sdk-go-v2/config"
 
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/client"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/clientconfig"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/materials"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/model"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/providers/kmsprovider"
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/client"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/clientconfig"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/materials"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/model"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/providers/kmsprovider"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 func AlgSuffix(as *suite.AlgorithmSuite) string {

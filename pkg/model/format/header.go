@@ -4,7 +4,7 @@
 package format
 
 import (
-	"github.com/chainifynet/aws-encryption-sdk-go/pkg/suite"
+	"github.com/controlplane-com/aws-encryption-sdk-go/pkg/suite"
 )
 
 // Serializable is an interface for objects that can be serialized to bytes.
