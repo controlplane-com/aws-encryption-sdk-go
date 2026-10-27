@@ -38,7 +38,10 @@ func deserializeFooter(alg *suite.AlgorithmSuite, buf *bytes.Buffer) (*footer, e
 	if err != nil {
 		return nil, fmt.Errorf("cant read signLen: %w", errors.Join(errFooter, err))
 	}
-	if signLen != alg.Authentication.SignatureLen {
+	// cpln fork: ECDSA DER signatures are variable-length (P-384: 101-103 bytes);
+	// SignatureLen is the max, not a fixed size. Bound it, don't pin it, or messages
+	// from other ESDK implementations (aws-crypto JS/Python) with shorter sigs fail.
+	if signLen <= 0 || signLen > alg.Authentication.SignatureLen {
 		return nil, fmt.Errorf("invalid signature length: %w", errFooter)
 	}
 	if buf.Len() < signLen {
