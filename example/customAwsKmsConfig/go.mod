@@ -1,6 +1,6 @@
 module github.com/chainifynet/aws-encryption-sdk-go/example/customAwsKmsConfig
 
-go 1.24
+go 1.26.0
 
 require (
 	github.com/aws/aws-sdk-go-v2/config v1.33.10
@@ -22,7 +22,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.43.5 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.51.5 // indirect
 	github.com/aws/smithy-go v1.28.6 // indirect
-	golang.org/x/crypto v0.29.0 // indirect
+	golang.org/x/crypto v0.58.0 // indirect
 )
 
 replace github.com/chainifynet/aws-encryption-sdk-go => ../..
