@@ -4,8 +4,8 @@ github.com/aws/aws-sdk-go-v2/internal/configsources v1.5.7 h1:fSNAt6hs4qLjb9tMZc
 github.com/aws/aws-sdk-go-v2/internal/configsources v1.5.7/go.mod h1:TMav+EuXQu5kNpZZz/6rIC8xx4mCsW+6AKHrjvOSAsE=
 github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.8.7 h1:7NS6kqBjkWIN8P/AEdmtyq6eQGAhN1oHTZdzXclpH6Y=
 github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.8.7/go.mod h1:1PFqtAUsIgF1nEVojzRJSf/v88zjzqrGW+w+UAtkXyQ=
-github.com/aws/aws-sdk-go-v2/service/kms v1.61.6 h1:FjwjlpoKphz6KCGH5/MnV5sAMuU83QE8c1AAy7ovEIs=
-github.com/aws/aws-sdk-go-v2/service/kms v1.61.6/go.mod h1:hlPq3LmJknBzJ7P5GmOoi6HCL0DWSQp2PvKPuJ+ZS9Q=
+github.com/aws/aws-sdk-go-v2/service/kms v1.62.0 h1:egtfSj0KnmZwHCWr2kOqQTLdZWkTxVvZUvaPTcIlYj4=
+github.com/aws/aws-sdk-go-v2/service/kms v1.62.0/go.mod h1:hlPq3LmJknBzJ7P5GmOoi6HCL0DWSQp2PvKPuJ+ZS9Q=
 github.com/aws/smithy-go v1.28.6 h1:Pj+/sUviNYjow8ELRtNwKHZ9ECeF+7pATX3+shjLIrw=
 github.com/aws/smithy-go v1.28.6/go.mod h1:YE2RhdIuDbA5E5bTdciG9KrW3+TiEONeUWCqxX9i1Fc=
 github.com/controlplane-com/aws-encryption-sdk-go v0.5.2 h1:CJmuVO5G7M5xAGv8UUm4KG8Sl/tt5I6YKqsUOBMdNCQ=
